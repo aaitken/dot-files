@@ -1,0 +1,2 @@
+# Tree representation of subdirectories - http://murphymac.com/tree-command-for-mac/
+alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
