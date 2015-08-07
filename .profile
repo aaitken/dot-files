@@ -3,3 +3,10 @@
 
 
 export EDITOR="/usr/local/Cellar/macvim/HEAD/bin/mvim"
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+### http://stackoverflow.com/questions/24585261/nvm-keeps-forgetting-node-in-new-terminal-session
+nvm alias default v0.12.7
