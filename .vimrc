@@ -14,6 +14,17 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 let mapleader = ","
 
 
+" https://github.com/maksimr/vim-jsbeautify
+" Ctrl+F beautifies html
+autocmd FileType html noremap <buffer> <c-f> :call HtmlBeautify()<cr>
+
+
 " per https://github.com/tpope/vim-sensible
 " define any overrides of sensible.vim settings below following line
 runtime! plugin/sensible.vim
+
+
+" ama preferred sets
+set number
+set nowrap
+set ruler
