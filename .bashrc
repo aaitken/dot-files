@@ -13,3 +13,6 @@ PS1="\[$Yellow\]\w\$(__git_ps1) $\[\e[0m\] "
 source ~/.bash-aliases
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # PER INSTALL: Load RVM into a shell session *as a function*
+
+
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
